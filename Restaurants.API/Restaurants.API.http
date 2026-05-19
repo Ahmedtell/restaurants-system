@@ -1,0 +1,28 @@
+@Restaurants.API_HostAddress = https://localhost:7087
+
+@id = 8
+GET {{Restaurants.API_HostAddress}}/api/restaurants
+
+###
+
+GET {{Restaurants.API_HostAddress}}/api/restaurants/{{id}}
+
+###
+
+POST {{Restaurants.API_HostAddress}}/api/restaurants
+Content-Type: application/json
+
+{
+  "Name": "W",
+  "Description": "Some data",
+  "Category": "Unknown Category",
+  "HasDelivery": true,
+  "ContactEmail": "ahmedaltell900@gmail.com",
+  "ContactNumber": "0598734143",
+  "City": "Hebron",
+  "Street": "Wadi Altoffah",
+  "PostalCode": "12345"
+}
+
+###
+GET https://localhost:7087/api/restaurants

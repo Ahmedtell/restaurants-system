@@ -1,0 +1,15 @@
+C:\ASP.NET\CleanArchitecture\Restaurants.Application\bin\Debug\net10.0\Restaurants.Application.deps.json
+C:\ASP.NET\CleanArchitecture\Restaurants.Application\bin\Debug\net10.0\Restaurants.Application.dll
+C:\ASP.NET\CleanArchitecture\Restaurants.Application\bin\Debug\net10.0\Restaurants.Application.pdb
+C:\ASP.NET\CleanArchitecture\Restaurants.Application\bin\Debug\net10.0\Restaurants.Domain.dll
+C:\ASP.NET\CleanArchitecture\Restaurants.Application\bin\Debug\net10.0\Restaurants.Domain.pdb
+C:\ASP.NET\CleanArchitecture\Restaurants.Application\obj\Debug\net10.0\Restaurants.Application.csproj.AssemblyReference.cache
+C:\ASP.NET\CleanArchitecture\Restaurants.Application\obj\Debug\net10.0\Restaurants.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASP.NET\CleanArchitecture\Restaurants.Application\obj\Debug\net10.0\Restaurants.Application.AssemblyInfoInputs.cache
+C:\ASP.NET\CleanArchitecture\Restaurants.Application\obj\Debug\net10.0\Restaurants.Application.AssemblyInfo.cs
+C:\ASP.NET\CleanArchitecture\Restaurants.Application\obj\Debug\net10.0\Restaurants.Application.csproj.CoreCompileInputs.cache
+C:\ASP.NET\CleanArchitecture\Restaurants.Application\obj\Debug\net10.0\Restaura.6AB96A7C.Up2Date
+C:\ASP.NET\CleanArchitecture\Restaurants.Application\obj\Debug\net10.0\Restaurants.Application.dll
+C:\ASP.NET\CleanArchitecture\Restaurants.Application\obj\Debug\net10.0\refint\Restaurants.Application.dll
+C:\ASP.NET\CleanArchitecture\Restaurants.Application\obj\Debug\net10.0\Restaurants.Application.pdb
+C:\ASP.NET\CleanArchitecture\Restaurants.Application\obj\Debug\net10.0\ref\Restaurants.Application.dll

@@ -9,3 +9,4 @@ C:\ASP.NET\CleanArchitecture\Restaurants.Domain\obj\Debug\net10.0\Restaurants.Do
 C:\ASP.NET\CleanArchitecture\Restaurants.Domain\obj\Debug\net10.0\refint\Restaurants.Domain.dll
 C:\ASP.NET\CleanArchitecture\Restaurants.Domain\obj\Debug\net10.0\Restaurants.Domain.pdb
 C:\ASP.NET\CleanArchitecture\Restaurants.Domain\obj\Debug\net10.0\ref\Restaurants.Domain.dll
+C:\AsP.NET\CleanArchitecture\Restaurants.Domain\obj\Debug\net10.0\Restaurants.Domain.sourcelink.json

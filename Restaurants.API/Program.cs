@@ -1,30 +1,25 @@
-using FluentValidation;
 using Restaurants.API.Restaurants.Application.Extensions;
 using Restaurants.API.Restaurants.Infrastructure.Extensions;
-using Restaurants.Application.Restaurants.DTOs;
-using Restaurants.Application.Restaurants.Validators;
 using Restaurants.Infrastructure.Seeders;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
+// Add services FIRST
 builder.Services.AddControllers();
-
-builder.Configuration.GetConnectionString("RestaurantsDb");
-
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
-
+// build app AFTER services
 var app = builder.Build();
 
-var scope = app.Services.CreateScope();
-var seeder = scope.ServiceProvider.GetRequiredService<IRestaurantSeeder>();
-await seeder.Seed();
+// Seed database (before run)
+using (var scope = app.Services.CreateScope())
+{
+    var seeder = scope.ServiceProvider.GetRequiredService<IRestaurantSeeder>();
+    await seeder.Seed();
+}
 
-// Configure the HTTP request pipeline.
-
+// Middleware pipeline
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

@@ -1,6 +1,6 @@
 @Restaurants.API_HostAddress = https://localhost:7087
 
-@id = 8
+@id = 5
 GET {{Restaurants.API_HostAddress}}/api/restaurants
 
 ###
@@ -13,16 +13,31 @@ POST {{Restaurants.API_HostAddress}}/api/restaurants
 Content-Type: application/json
 
 {
-  "Name": "W",
-  "Description": "Some data",
-  "Category": "Unknown Category",
+  "Name": "Mix Grill",
+  "Description": "Shawerma",
+  "Category": "Shawerma",
   "HasDelivery": true,
-  "ContactEmail": "ahmedaltell900@gmail.com",
-  "ContactNumber": "0598734143",
-  "City": "Hebron",
-  "Street": "Wadi Altoffah",
-  "PostalCode": "12345"
+  "ContactEmail": "mixgrill900@gmail.com",
+  "ContactNumber": "0598546723",
+  "City": "Amman",
+  "Street": "Queen Alia Street",
+  "PostalCode": "15143"
 }
 
 ###
+
+DELETE {{Restaurants.API_HostAddress}}/api/restaurants/{{id}}
+
+###
 GET https://localhost:7087/api/restaurants
+
+
+###
+PATCH {{Restaurants.API_HostAddress}}/api/restaurants/{{id}}
+Content-Type: application/json
+
+{
+  "Name": "Mix Grill",
+  "Description": "Shawerma",
+  "HasDelivery": true
+}

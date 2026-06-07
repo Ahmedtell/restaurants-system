@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MediatR;
 
 namespace Restaurants.Application.Restaurants.Commands.CreateRestaurant
 {
     // This class is going to represenst the datd that is needed to create a new restaurant
-    internal class CreateRestaurantCommand
+    public class CreateRestaurantCommand : IRequest<int>
     {
         public string Name { get; set; } = default!;
         public string Description { get; set; } = default!;

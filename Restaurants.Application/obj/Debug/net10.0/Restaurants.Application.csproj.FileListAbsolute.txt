@@ -13,3 +13,4 @@ C:\ASP.NET\CleanArchitecture\Restaurants.Application\obj\Debug\net10.0\Restauran
 C:\ASP.NET\CleanArchitecture\Restaurants.Application\obj\Debug\net10.0\refint\Restaurants.Application.dll
 C:\ASP.NET\CleanArchitecture\Restaurants.Application\obj\Debug\net10.0\Restaurants.Application.pdb
 C:\ASP.NET\CleanArchitecture\Restaurants.Application\obj\Debug\net10.0\ref\Restaurants.Application.dll
+C:\ASP.NET\CleanArchitecture\Restaurants.Application\obj\Debug\net10.0\Restaurants.Application.sourcelink.json

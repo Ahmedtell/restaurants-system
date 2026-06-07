@@ -26,5 +26,22 @@ namespace Restaurants.Infrastructure.Repositories
                 .FirstOrDefaultAsync(r => r.ID == id);
             return restaurant!;
         }
+
+        public async Task Delete(Restaurant entity)
+        {
+            DbContext.Remove(entity);
+            await DbContext.SaveChangesAsync();
+        }
+
+        public async Task<Restaurant?> UpdateRestaurantById(int id, Restaurant entity)
+        {
+            var restaurant = await DbContext.Restaurants
+                .Include(r => r.Dishes)
+                .FirstOrDefaultAsync(r => r.ID == id);
+            return restaurant;
+        }
+
+        public Task SaveChanges()
+         => DbContext.SaveChangesAsync();
     }
 }
